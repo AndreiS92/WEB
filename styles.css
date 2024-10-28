@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -24,7 +23,7 @@ body {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Imagen de perfil estilo .frog */
+/* Imagen de perfil estilo .frog con efecto hover */
 .frog {
     width: 200px;
     height: 200px;
@@ -33,6 +32,11 @@ body {
     display: block;
     margin: 20px auto;
     box-shadow: 10px 10px 50px 10px #555111;
+    transition: transform 0.3s ease; /* Efecto de escala al pasar el ratón */
+}
+
+.frog:hover {
+    transform: scale(1.1); /* Aumenta el tamaño en un 10% */
 }
 
 h1 {
@@ -67,4 +71,22 @@ h2 {
     margin-bottom: 15px;
     font-size: 1em;
     line-height: 1.5;
+}
+
+/* Estilos de enlaces sociales */
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.social-links a {
+    color: #000; /* Cambia el color si prefieres */
+    font-size: 24px; /* Tamaño del icono */
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.social-links a:hover {
+    transform: scale(1.2);
 }
