@@ -1,0 +1,70 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Imagen de perfil estilo .frog */
+.frog {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+    box-shadow: 10px 10px 50px 10px #555111;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+h1 span {
+    color: #e74c3c;
+}
+
+h2 {
+    font-size: 1em;
+    color: #e74c3c;
+    margin-bottom: 20px;
+}
+
+.bio {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.education {
+    list-style: none;
+    text-align: left;
+    margin: 20px;
+}
+
+.education li {
+    margin-bottom: 15px;
+    font-size: 1em;
+    line-height: 1.5;
+}
